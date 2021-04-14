@@ -11,5 +11,8 @@ module BlogFlash
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+
+    # CSRF blocker
+    # config.web_console.whitelisted_ips = 'localhost'
   end
 end
